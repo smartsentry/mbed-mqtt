@@ -59,7 +59,7 @@ public:
 
 private:
     LowPowerTimer  t;
-    unsigned long interval_end_ms;
+    int interval_end_ms;
 };
 
 #endif

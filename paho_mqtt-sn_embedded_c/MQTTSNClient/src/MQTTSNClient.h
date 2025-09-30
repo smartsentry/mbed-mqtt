@@ -112,7 +112,7 @@ public:
      *      before calling MQTT connect
      *  @param limits an instance of the Limit class - to alter limits as required
      */
-    Client(Network& network, unsigned int command_timeout_ms = 30000);
+    Client(Network& network, unsigned int command_timeout_ms = 10000);
 
     /** Set the default message handling callback - used for any message which does not match a subscription message handler
      *  @param mh - pointer to the callback function
